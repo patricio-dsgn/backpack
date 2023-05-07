@@ -10,6 +10,11 @@
 
 <body>
 
+  <header class="header">
+    <img class="logo" src="./assets/img/logo.svg">
+    <p>Recursos para experimentar</p>
+  </header>
+
   <div id="app" class="app"></div>
 
   <script>
@@ -21,7 +26,7 @@
       .then(data => {
 
         info += `
-        <h2>Indice</h2>
+
       <ul class="table-index">
       <h2>Indice</h2>
         `
@@ -35,7 +40,7 @@
           info += `
       <div id="${key}" class="block">
         <h2>${key}</h2>
-        <button onclick="history.back()">Go Back</button> 
+        <button class="back" onclick="history.back()">Go Back</button> 
         <div class="sub-block">`
           data.source[key].file.forEach(el => {
             info += element(url, key, el)
@@ -102,7 +107,7 @@
     }
 
     body {
-      font-family: 'Courier New', Courier, monospace;
+      font-family: sans-serif;
     }
 
     ul {
@@ -143,7 +148,7 @@
       flex-direction: column;
       align-items: center;
       font-weight: bold;
-      
+      margin: 40px;
     }
 
     .block {
@@ -193,6 +198,30 @@
 
     img {
       width: 30px;
+    }
+
+    .back{
+      padding: 5px 10px;
+      margin: 10px;
+    }
+    
+    .header{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      background-color: #000;
+      padding: 10px;
+      gap: 5px;
+    }
+    
+    .header .logo{
+      width: 300px;
+    }
+    .header p{
+      color: #fff;
+      width: fit-content;
     }
   </style>
 </body>
