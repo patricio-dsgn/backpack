@@ -1,15 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg version="1.1" viewBox="0 0 744.09 1052.4" xmlns="http://www.w3.org/2000/svg">
- <path d="m250.69 121.19-24.953 43.221h49.986l-24.953-43.221h-0.0812z" fill="#00f" opacity=".333"/>
- <path d="m125.68 337.7-24.953 43.221h300l-24.953-43.221h-250.09z" fill="#f00" opacity=".333"/>
- <path d="m150.69 294.4-24.953 43.221h249.99l-24.953-43.221h-200.08z" fill="#f95" opacity=".333"/>
- <path d="m175.68 251.1-24.953 43.221h200l-24.953-43.221h-150.09z" fill="#ffe680" opacity=".333"/>
- <path d="m200.69 207.79-24.966 43.221h150.01l-24.966-43.221h-100.08z" fill="#ff0" opacity=".333"/>
- <path d="m225.68 164.49-24.953 43.221h100l-24.953-43.221h-50.095z" fill="#0ff" opacity=".333"/>
- <path d="m100.8 380.95 49.906-6.6e-4 -24.993-43.29-24.954 43.22 0.0406 0.0703z" fill="#00f" opacity=".333"/>
- <path d="m350.8 380.96 49.906-6.7e-4 -150-259.81-24.954 43.22 125.05 216.59z" fill="#f00" opacity=".333"/>
- <path d="m300.8 380.95 49.906-6.6e-4 -124.99-216.49-24.954 43.22 100.04 173.28z" fill="#f95" opacity=".333"/>
- <path d="m250.8 380.96 49.906-6.7e-4 -100-173.21-24.954 43.22 75.047 129.99z" fill="#ffe680" opacity=".333"/>
- <path d="m200.8 380.95 49.913 0.0111-75.007-129.92-24.947 43.232 50.041 86.673z" fill="#ff0" opacity=".333"/>
- <path d="m150.8 380.96 49.906-6.6e-4 -50-86.603-24.954 43.22 25.047 43.383z" fill="#0ff" opacity=".333"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1280 1108" style="enable-background:new 0 0 1280 1108;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.333;fill:#0000FF;enable-background:new    ;}
+	.st1{opacity:0.333;fill:#FF0000;enable-background:new    ;}
+	.st2{opacity:0.333;fill:#FF9955;enable-background:new    ;}
+	.st3{opacity:0.333;fill:#FFE680;enable-background:new    ;}
+	.st4{opacity:0.333;fill:#FFFF00;enable-background:new    ;}
+	.st5{opacity:0.333;fill:#00FFFF;enable-background:new    ;}
+</style>
+<g>
+	<path class="st0" d="M639.8-0.1L533.4,184.3h213.3L640.2-0.1L639.8-0.1L639.8-0.1z"/>
+	<path class="st1" d="M106.5,923.7L0,1108.1h1280l-106.5-184.4H106.5L106.5,923.7z"/>
+	<path class="st2" d="M213.2,738.9L106.7,923.3h1066.6l-106.5-184.4H213.2L213.2,738.9z"/>
+	<path class="st3" d="M319.8,554.2L213.3,738.6h853.3L960.2,554.2H319.8L319.8,554.2z"/>
+	<path class="st4" d="M426.5,369.4L320,553.8h640L853.5,369.4L426.5,369.4L426.5,369.4z"/>
+	<path class="st5" d="M533.1,184.7L426.7,369.1h426.7L746.9,184.7L533.1,184.7L533.1,184.7z"/>
+	<path class="st0" d="M0.3,1108.2l212.9,0L106.6,923.5L0.1,1107.9L0.3,1108.2L0.3,1108.2z"/>
+	<path class="st1" d="M1067,1108.3l212.9,0L639.9-0.3L533.4,184.1L1067,1108.3L1067,1108.3z"/>
+	<path class="st2" d="M853.6,1108.2l212.9,0L533.3,184.5L426.8,368.9L853.6,1108.2L853.6,1108.2z"/>
+	<path class="st3" d="M640.3,1108.3l212.9,0l-426.7-739L320.1,553.6L640.3,1108.3L640.3,1108.3z"/>
+	<path class="st4" d="M427,1108.2l213,0l-320-554.3L213.5,738.4L427,1108.2L427,1108.2z"/>
+	<path class="st5" d="M213.6,1108.3l212.9,0L213.2,738.8L106.8,923.2L213.6,1108.3L213.6,1108.3z"/>
+</g>
 </svg>

@@ -1,65 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
+
 <body>
 
   <div id="app" class="app"></div>
 
-<script>
-  const app = document.getElementById('app')
-  const url = 'https://patricio-dsgn.github.io/backpack/source/'
-  let info = ''
-  fetch('files.json')
-    .then(response => response.json())
-    .then(data=>{
-      
-      console.log(data.coder)
-      console.log(data.date)
-      // console.log(data.source)
-      // info += `<nav><ul>`
-      //   for(key in data.files) {
-      //     info += `<li><a href="${key}">${key}</a></li>`
-      //   }
-      // info += `</ul></nav>`
+  <script>
+    const app = document.getElementById('app')
+    const url = 'https://patricio-dsgn.github.io/backpack/source/'
+    let info = ''
+    fetch('files.json')
+      .then(response => response.json())
+      .then(data => {
 
-      for(key in data.source) {
-        // console.log(data.source[key].file)
-        
         info += `
-<div class="block">
-    <h2>${key}</h2>
-    <div class="sub-block">`
-      data.source[key].file.forEach(el => {
-        info += element(url, key, el)
-      });
+        <h2>Indice</h2>
+      <ul class="table-index">
+      <h2>Indice</h2>
+        `
+        for (key in data.source) {
+          info += `<li><a href="#${key}">${key}</a></li>`
+        }
+        info += `
+      </ul>`
 
-info += `</div>
-    </div>
-</div>`
+        for (key in data.source) {
+          info += `
+      <div id="${key}" class="block">
+        <h2>${key}</h2>
+        <button onclick="history.back()">Go Back</button> 
+        <div class="sub-block">`
+          data.source[key].file.forEach(el => {
+            info += element(url, key, el)
+          });
+          info += `
+        </div>
+      </div>`
+        }
 
-// info += `<p>${data.source[key].type}</p>`
-        //   info += `</div>`
-        // info += `</div>`
-      }
-
-      app.innerHTML = info
-    })
+        app.innerHTML = info
+      })
 
 
 
     function element(url, key, el) {
       let out = ``
       let ext = key.split('-')[0]
-      if(['jpg', 'png', 'gif', 'svg', 'webp','favicon'].includes(ext)){
-        if(el===''){
+      if (['jpg', 'png', 'gif', 'svg', 'webp', 'favicon'].includes(ext)) {
+        if (el === '') {
           out = `<div class="element"><br></div>`
-        }else{
-        out = `
+        } else {
+          out = `
         <div class="element">
           <a href="./source/${key}/${el}">
             <img src="./source/${key}/${el}">  
@@ -67,7 +65,7 @@ info += `</div>
           <span>${url}${key}/${el}</span>
         </div>`
         }
-      }else{
+      } else {
         out = `
         <div class="element">
           <a href="./source/${key}/${el}">
@@ -90,97 +88,113 @@ info += `</div>
       return out
 
     }
-</script>
+  </script>
 
 
 
-<style>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
 
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-  }
+    body {
+      font-family: 'Courier New', Courier, monospace;
+    }
 
-  body{
-    font-family: 'Courier New', Courier, monospace;
-  }
+    ul {
+      list-style: none;
+    }
 
-  ul{
-    list-style: none;
-  }
+    a {
+      text-decoration: none;
+    }
 
-  a{
-    text-decoration: none;
-  }
+    nav {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
 
-  nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
+    nav ul {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      border: 5px solid #000;
+    }
 
-  nav ul {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    border: 5px solid #000;
-  }
+    nav li {
+      padding: 5px 20px;
+      border: 1px solid #000;
+      border-radius: 5px;
+    }
 
-  nav li{
-    padding: 5px 20px;
-    border: 1px solid #000;
-    border-radius: 5px;
-  }
+    .app {
+      
+    }
 
-  .app{
-  }
 
-  .block{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #000;
-    margin: 0 30px;
-  }
+    .table-index{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      font-weight: bold;
+      
+    }
 
-  .sub-block{
-    border: 1px solid #000;
-    margin: 0 30px;
-  }
+    .block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-bottom: 1px solid #ccc;
+      margin: 0 20px;
+      padding: 30px 0;
+      
+    }
 
-  .element{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    border: 1px solid #000;
-    height: 30px;
-    align-items: center;
-    justify-content: flex-start;
-  }
+    .sub-block {
+      /* border: 1px solid #000; */
+      margin: 0 30px;
+    }
 
-  .element span{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #000;
-  }
+    .element {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      /* border: 1px solid #000; */
+      height: 30px;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 1px;
+    }
 
-  .element a{
-    display: flex;
-    align-items: center;
-  }
+    .element span {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* border: 1px solid #000; */
+      font-size: 90%;
+      letter-spacing: -0.8px;
+    }
 
-  .element img{
-    border: 1px solid #000;
-    margin-right: 10px;
-  }
+    .element a {
+      display: flex;
+      align-items: center;
+    }
 
-  img{
-    width: 30px;
-  }
+    .element img {
+      /* border: 1px solid #000; */
+      margin-right: 10px;
+    }
 
-</style>
+    img {
+      width: 30px;
+    }
+  </style>
 </body>
+
 </html>

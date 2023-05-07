@@ -85,49 +85,42 @@
         "django.svg",
         "",
         "sql.svg",
+        "excel.svg",
         "",
-        "blockchain-v2.svg",
         "blockchain.svg",
+        "blockchain-v2.svg",
         "cloud.svg",
         "code.svg",
+        "terminal.svg",
         "data.svg",
+        "leaflet.svg",
+        "metabase.svg",
+        "datastudio.svg",
+        "datascience.svg",
         "",
         "illustrator.svg",
         "indesign.svg",
         "photoshop.svg",
         "aftereffects.svg",
         "animate.svg",
-
-
+        "",
+        "finalcut.svg",
         "3d.svg",
         "blender.svg",
         "cinema4d.svg",
-        "cubase.svg",
-        "datascience.svg",
-        "datastudio.svg",
-        "design-v2.svg",
-        "design.svg",
         "",
+        "design.svg",
+        "design-v2.svg",
         "designthinking-v2.svg",
         "designthinking.svg",
         "lxd.svg",
         "uxui.svg",
         "",
-        "excel.svg",
-        "finalcut.svg",
-
-        "key.svg",
-        "leaflet.svg",
         "live.svg",
-
-        "metabase.svg",
+        "cubase.svg",
         "music.svg",
-
-
-        "terminal.svg",
-
-
         "wmv.svg"
+
       ]
     },
     "jpg": {
