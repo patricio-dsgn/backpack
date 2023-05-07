@@ -12,7 +12,7 @@
 
 <script>
   const app = document.getElementById('app')
-  const url = ''
+  const url = 'https://patricio-dsgn.github.io/backpack/source/'
   let info = ''
   fetch('files.json')
     .then(response => response.json())
@@ -35,7 +35,7 @@
     <h2>${key}</h2>
     <div class="sub-block">`
       data.source[key].file.forEach(el => {
-        info += element(key, el)
+        info += element(url, key, el)
       });
 
 info += `</div>
@@ -52,7 +52,7 @@ info += `</div>
 
 
 
-    function element(key, el) {
+    function element(url, key, el) {
       let out = ``
       let ext = key.split('-')[0]
       if(['jpg', 'png', 'gif', 'svg', 'webp','favicon'].includes(ext)){
@@ -64,7 +64,7 @@ info += `</div>
           <a href="./source/${key}/${el}">
             <img src="./source/${key}/${el}">  
           </a>
-          <span>${key}/${el}</span>
+          <span>${url}${key}/${el}</span>
         </div>`
         }
       }else{
