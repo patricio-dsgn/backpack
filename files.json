@@ -1,0 +1,178 @@
+{
+  "coder": "patricio.ngg@gmail.com",
+  "date": 2536546789,
+  "source": {
+    "svg": {
+      "type": "img",
+      "file": [
+        "1.svg",
+        "2.svg",
+        "3.svg",
+        "4.svg"
+      ]
+    },
+    "webp": {
+      "type": "img",
+      "file": [
+        "demo.webp"
+      ]
+    },
+    "png": {
+      "type": "img",
+      "file": [
+        "0.png",
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png"
+      ]
+    },
+    "mp4": {
+      "type": "video",
+      "file": [
+        "hair-43633.mp4",
+        "new-york-city-1044.mp4",
+        "robin-21723.mp4"
+      ]
+    },
+    "mp3-effect": {
+      "type": "audio",
+      "file": [
+        "beep-6-96243.mp3",
+        "button-124476.mp3",
+        "decidemp3-14575.mp3",
+        "interface-124464.mp3",
+        "stop-13692.mp3"
+      ]
+    },
+    "mp3-song": {
+      "type": "audio",
+      "file": [
+        "comedian-117016.mp3",
+        "gypsy-jazz-guitar-relaxing-acoustic-nylon-guitar-141860.mp3",
+        "happy-holiday-120132.mp3",
+        "jazzy-abstract-beat-11254.mp3"
+      ]
+    },
+    "svg-logo2": {
+      "type": "img",
+      "file": [
+        "cambiaforma.svg",
+        "logo-es.svg"
+      ]
+    },
+    "svg-logo": {
+      "type": "img",
+      "file": [
+        "html5-v2.svg",
+        "html5.svg",
+        "css3-v2.svg",
+        "css3.svg",
+        "sass.svg",
+        "figma.svg",
+        "",
+        "javascript.svg",
+        "javascript-v2.svg",
+        "javascript-v3.svg",
+        "node.svg",
+        "react.svg",
+        "typescript.svg",
+        "",
+        "php.svg",
+        "python.svg",
+        "php-v2.svg",
+        "python-v2.svg",
+        "django.svg",
+        "",
+        "sql.svg",
+        "",
+        "blockchain-v2.svg",
+        "blockchain.svg",
+        "cloud.svg",
+        "code.svg",
+        "data.svg",
+        "",
+        "illustrator.svg",
+        "indesign.svg",
+        "photoshop.svg",
+        "aftereffects.svg",
+        "animate.svg",
+
+
+        "3d.svg",
+        "blender.svg",
+        "cinema4d.svg",
+        "cubase.svg",
+        "datascience.svg",
+        "datastudio.svg",
+        "design-v2.svg",
+        "design.svg",
+        "",
+        "designthinking-v2.svg",
+        "designthinking.svg",
+        "lxd.svg",
+        "uxui.svg",
+        "",
+        "excel.svg",
+        "finalcut.svg",
+
+        "key.svg",
+        "leaflet.svg",
+        "live.svg",
+
+        "metabase.svg",
+        "music.svg",
+
+
+        "terminal.svg",
+
+
+        "wmv.svg"
+      ]
+    },
+    "jpg": {
+      "type": "img",
+      "file": [
+        "1.jpg",
+        "2.jpg",
+        "3.jpg",
+        "4.jpg",
+        "5.jpg",
+        "6.jpg",
+        "7.jpg"
+      ]
+    },
+    "gif-bg": {
+      "type": "img",
+      "file": [
+        "bg1.gif",
+        "bg2.gif",
+        "bg3.gif"
+      ]
+    },
+    "gif": {
+      "type": "img",
+      "file": [
+        "1.gif",
+        "2.gif",
+        "3.gif",
+        "4.gif",
+        "5.gif",
+        "6.gif",
+        "7.gif  "
+      ]
+    },
+    "favicon": {
+      "type": "img",
+      "file": [
+        "alien.ico",
+        "bomb.ico",
+        "bot.ico",
+        "cool.ico",
+        "heart.ico",
+        "invader.ico",
+        "skull.ico"
+      ]
+    }
+  }
+}
