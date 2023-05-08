@@ -3,12 +3,17 @@ const indiceNombreArchivo = urlActual.lastIndexOf('/index.html');
 if (indiceNombreArchivo !== -1) {
   urlActual = urlActual.substring(0, indiceNombreArchivo);
 }
-console.log(urlActual);
+
+// console.log(urlActual);
 
 
 const app = document.getElementById('app')
 const link = document.getElementById('link')
-const url = urlActual+'/source/'
+if(urlActual.charAt(str.length - 1)!=='/'){
+  const urlActual = urlActual+'/source/'
+}else{
+  const urlActual = urlActual+'source/'
+}
 
 link.innerHTML = urlActual
 link.setAttribute('href', urlActual)
