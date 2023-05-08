@@ -4,16 +4,20 @@ if (indiceNombreArchivo !== -1) {
   urlActual = urlActual.substring(0, indiceNombreArchivo);
 }
 
-// console.log(urlActual);
 
-
+let url = ''
+let url_t = urlActual.charAt(urlActual.length - 1)!=='/'
 const app = document.getElementById('app')
 const link = document.getElementById('link')
-if(urlActual.charAt(str.length - 1)!=='/'){
-  const urlActual = urlActual+'/source/'
+if(url_t){
+  urlActual = urlActual+'/'
 }else{
-  const urlActual = urlActual+'source/'
+  urlActual = urlActual+''
 }
+url = urlActual+'source/'
+
+console.log(urlActual)
+console.log(url)
 
 link.innerHTML = urlActual
 link.setAttribute('href', urlActual)
