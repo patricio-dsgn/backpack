@@ -44,11 +44,18 @@ fetch('files.json')
 
 
 function element(url, key, dimension, el) {
+  console.log(el)
   let out = ``
   let ext = key.split('-')[0]
   if (['jpg', 'png', 'gif', 'svg', 'webp', 'favicon'].includes(ext)) {
     if (el === '') {
-      out = `<div class="jump"></div>`
+      out = `<div class="jump"><div class="line"></div></div>`
+    }else if (el.includes('/')) {
+      out = `
+    <div style="background-color:${el.split("/")[1]}; width:${dimension[0]}px; height:${dimension[1]}px;" class="element element-transparent" dir="${url}${key}/${el.split("/")[0]}" onclick="copy(this)">
+      <img src="./source/${key}/${el.split("/")[0]}">  
+    </div>
+    `
     } else {
       out = `
     <div style="width:${dimension[0]}px; height:${dimension[1]}px;" class="element" dir="${url}${key}/${el}" onclick="copy(this)">
