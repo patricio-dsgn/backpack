@@ -1,4 +1,10 @@
-const urlActual = window.location.href.lastIndexOf('/index.html');
+let urlActual = window.location.href;
+const indiceNombreArchivo = urlActual.lastIndexOf('/index.html');
+if (indiceNombreArchivo !== -1) {
+  urlActual = urlActual.substring(0, indiceNombreArchivo);
+}
+console.log(urlActual);
+
 
 const app = document.getElementById('app')
 const link = document.getElementById('link')
