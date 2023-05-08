@@ -4,6 +4,7 @@
   "source": {
     "svg": {
       "type": "img",
+      "dimension": [60,60],
       "file": [
         "1.svg",
         "2.svg",
@@ -13,12 +14,14 @@
     },
     "webp": {
       "type": "img",
+      "dimension": [60,60],
       "file": [
         "demo.webp"
       ]
     },
     "png": {
       "type": "img",
+      "dimension": [60,60],
       "file": [
         "0.png",
         "1.png",
@@ -29,6 +32,7 @@
     },
     "mp4": {
       "type": "video",
+      "dimension": [60,60],
       "file": [
         "hair-43633.mp4",
         "new-york-city-1044.mp4",
@@ -37,6 +41,7 @@
     },
     "mp3-effect": {
       "type": "audio",
+      "dimension": [60,60],
       "file": [
         "beep-6-96243.mp3",
         "button-124476.mp3",
@@ -47,6 +52,7 @@
     },
     "mp3-song": {
       "type": "audio",
+      "dimension": [60,60],
       "file": [
         "comedian-117016.mp3",
         "gypsy-jazz-guitar-relaxing-acoustic-nylon-guitar-141860.mp3",
@@ -56,6 +62,7 @@
     },
     "svg-logo2": {
       "type": "img",
+      "dimension": [60,60],
       "file": [
         "cambiaforma.svg",
         "logo-es.svg"
@@ -63,6 +70,7 @@
     },
     "svg-logo": {
       "type": "img",
+      "dimension": [60,60],
       "file": [
         "html5-v2.svg",
         "html5.svg",
@@ -120,11 +128,11 @@
         "cubase.svg",
         "music.svg",
         "wmv.svg"
-
       ]
     },
     "jpg": {
       "type": "img",
+      "dimension": [100,100],
       "file": [
         "1.jpg",
         "2.jpg",
@@ -135,8 +143,124 @@
         "7.jpg"
       ]
     },
+    "jpg-photo-red": {
+      "type": "img",
+      "dimension": [100,100],
+      "file": [
+        "pexels-ben-cheung-715134.jpg",
+        "pexels-chevanon-photography-1108116.jpg",
+        "pexels-francesco-ungaro-1602842.jpg",
+        "pexels-johannes-plenio-1177440.jpg",
+        "pexels-magda-ehlers-960137.jpg",
+        "pexels-magova-772520.jpg",
+        "pexels-pixabay-36464.jpg",
+        "pexels-pixabay-59999.jpg",
+        "pexels-pixabay-235767.jpg",
+        "pexels-scott-webb-532563.jpg"
+      ]
+    },
+    "jpg-photo-green": {
+      "type": "img",
+      "dimension": [100,100],
+      "file": [
+        "clover-g5c18e9b71_1280.jpg",
+        "fern-gce1755e99_1280.jpg",
+        "hd-wallpaper-g4fb065264_1280.jpg",
+        "hd-wallpaper-g25b98d7a0_1280.jpg",
+        "hd-wallpaper-g940a05d51_1280.jpg",
+        "hd-wallpaper-gaddb75a35_1280.jpg",
+        "leaf-g8d0f0b4da_1280.jpg",
+        "leaf-g603dff2bf_1280.jpg",
+        "meadow-g5db742dcd_1280.jpg",
+        "pexels-isuru-udesh-mangala-2376409.jpg",
+        "pexels-revac-film's&photography-68258.jpg",
+        "pexels-ricardo-esquivel-1787426.jpg"
+      ]
+    },
+    "jpg-photo-blue": {
+      "type": "img",
+      "dimension": [100,100],
+      "file": [
+        "pexels-btgl-♡-3894157.jpg",
+        "pexels-egor-kamelev-920157.jpg",
+        "pexels-kei-scampa-2370726.jpg",
+        "pexels-lydia-bond-1550618.jpg",
+        "pexels-pixabay-87628.jpg",
+        "pexels-pixabay-207305.jpg",
+        "pexels-pixabay-208560.jpg",
+        "pexels-raka-miftah-3605420.jpg",
+        "pexels-revac-film's&photography-325676.jpg",
+        "pexels-samir-jammal-2215787.jpg"
+      ]
+    },
+    "jpg-photo-white": {
+      "type": "img",
+      "dimension": [100,100],
+      "file": [
+        "pexels-adonyi-gábor-2064359.jpg",
+        "pexels-anastasia-shuraeva-6964749.jpg",
+        "pexels-gabriela-palai-395198.jpg",
+        "pexels-jessica-lewis-creative-583850.jpg",
+        "pexels-karolina-grabowska-4194857.jpg",
+        "pexels-kasia-sikorska-9850179.jpg",
+        "pexels-ksenia-chernaya-6615804.jpg",
+        "pexels-ngai-man-yan-842154.jpg",
+        "pexels-paula-schmidt-963486.jpg",
+        "pexels-sindre-fs-966397.jpg"
+      ]
+    },
+    "jpg-photo-black": {
+      "type": "img",
+      "dimension": [100,100],
+      "file": [
+        "pexels-artem-saranin-1853542.jpg",
+        "pexels-daniel-torobekov-5244260.jpg",
+        "pexels-dexter-fernandes-2646237.jpg",
+        "pexels-elijah-o'donnell-3473569.jpg",
+        "pexels-josh-hild-2448749.jpg",
+        "pexels-kaique-rocha-65777.jpg",
+        "pexels-kaique-rocha-116021.jpg",
+        "pexels-olga-3549588.jpg",
+        "pexels-swapnil-sharma-1798642.jpg",
+        "pexels-vojtech-okenka-399772.jpg"
+      ]
+    },
+    "jpg-photo-people": {
+      "type": "img",
+      "dimension": [100,100],
+      "file": [
+        "pexels-andrea-piacquadio-733872.jpg",
+        "pexels-andrea-piacquadio-774909.jpg",
+        "pexels-athena-1758144.jpg",
+        "pexels-ben-mack-6775289.jpg",
+        "pexels-clara-ngo-3866555.jpg",
+        "pexels-cliff-booth-4058316.jpg",
+        "pexels-dids-1869586.jpg",
+        "pexels-dziana-hasanbekava-5480693.jpg",
+        "pexels-ekrulila-3292558.jpg",
+        "pexels-elifskies-7799284.jpg",
+        "pexels-george-shervashidze-532280.jpg",
+        "pexels-guilherme-almeida-1858175.jpg",
+        "pexels-ike-louie-natividad-3565370.jpg",
+        "pexels-ingo-joseph-9816.jpg",
+        "pexels-jack-winbow-1498836.jpg",
+        "pexels-joanne-adela-low-3225796.jpg",
+        "pexels-kaique-rocha-109919.jpg",
+        "pexels-kat-smith-736842.jpg",
+        "pexels-luizclas-595747.jpg",
+        "pexels-maria-orlova-4946519.jpg",
+        "pexels-marlon-schmeiski-2915216.jpg",
+        "pexels-matheus-bertelli-573238.jpg",
+        "pexels-matheus-bertelli-573301.jpg",
+        "pexels-noelle-otto-906052.jpg",
+        "pexels-oliver-sjöström-1074531.jpg",
+        "pexels-pixabay-220453.jpg",
+        "pexels-stefan-stefancik-91227.jpg"
+      ]
+    },
     "gif-bg": {
       "type": "img",
+      "dimension": [60,60],
       "file": [
         "bg1.gif",
         "bg2.gif",
@@ -145,6 +269,7 @@
     },
     "gif": {
       "type": "img",
+      "dimension": [60,60],
       "file": [
         "1.gif",
         "2.gif",
@@ -157,6 +282,7 @@
     },
     "favicon": {
       "type": "img",
+      "dimension": [60,60],
       "file": [
         "alien.ico",
         "bomb.ico",
