@@ -29,20 +29,21 @@ fetch('files.json')
 
     info += `
 
-  <ul class="table-index">
+  <ol class="table-index">
   <h2>Indice</h2>
     `
     for (key in data.source) {
       info += `<li><a href="#${key}">${key}</a></li>`
     }
     info += `
-  </ul>`
+  </ol>`
 
+    let num = 1
     for (key in data.source) {
       info += `
   <div id="${key}" class="block">
     <div class="block-head">
-      <h2 class="block-title">${key}</h2>
+      <h2 class="block-title">${num}. ${key}</h2>
       <button class="download" onclick="crearZip('${key}')">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-zip" viewBox="0 0 16 16">
           <path d="M5 7.5a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v.938l.4 1.599a1 1 0 0 1-.416 1.074l-.93.62a1 1 0 0 1-1.11 0l-.929-.62a1 1 0 0 1-.415-1.074L5 8.438V7.5zm2 0H6v.938a1 1 0 0 1-.03.243l-.4 1.598.93.62.929-.62-.4-1.598A1 1 0 0 1 7 8.438V7.5z"/>
@@ -65,11 +66,12 @@ fetch('files.json')
     </div>
     <div class="block-links hide" id="links-${key}">`
       data.source[key].file.forEach(el => {
-        info += url+key+el+'<br>'
+        info += url+key+'/'+el+'<br>'
       });
       info += `
     </div>
   </div>`
+    num++;
     }
 
     app.innerHTML = info
