@@ -1,4 +1,4 @@
-const urlActual = window.location.origin;
+const urlActual = window.location.href.lastIndexOf('/index.html');
 
 const app = document.getElementById('app')
 const link = document.getElementById('link')
