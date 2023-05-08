@@ -6,7 +6,7 @@ async function crearZip(key) {
     .then(response => response.json())
     .then(data => data)
   
-  console.log(list["source"][key]["file"])
+  // console.log(list["source"][key]["file"])
 
   const listFiles = list["source"][key]["file"]
   await listFiles.forEach(el => {
